@@ -1,0 +1,46 @@
+@media screen and (max-width: 380px){
+    .mainContent{
+        margin-left: 0px;
+        display: block;
+    }
+
+    .left_top {
+        border-bottom:1px solid #e5e5e5;
+        margin-bottom:15px;
+        margin-left:15% ;
+        float:left;
+        text-align: center;
+    }
+
+    .postsDevice{
+        margin-left: 23px;
+        margin-right: -44px;
+    }
+	.navbar .brand {
+		text-align:center;
+		width:100%;
+		padding:20px 20px 20px;
+	}
+	.navbar-search {
+		margin: 20px auto;
+		width: 196px;
+		float: none;
+	}
+	.navbar .divider-vertical {
+		display:none;
+	}
+
+    .autocomplete ul{
+       position: absolute;
+       left: 0;
+       width: 100%;
+       border-left: 1px solid #ccc;
+       border-right: 1px solid #ccc;
+       border-bottom: 1px solid #ccc;
+       z-index: 1;
+       margin:0;
+       top:76px;
+       background-color: #fff;
+    }   
+
+}

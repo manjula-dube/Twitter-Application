@@ -1,0 +1,16 @@
+body{
+	padding-top: 60px;
+	color: #377;
+}
+
+textarea{
+width:75%;
+display: block;
+}
+.containerTextArea{
+text-align: center;
+}
+
+.container_left {
+	line-height: 60px;	
+}

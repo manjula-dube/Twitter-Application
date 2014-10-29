@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom:20px;
+}
+.container {
+    width: 100%;
+
+}
+.left_top {
+	border-bottom:1px solid #e5e5e5;
+	margin-bottom:15px;
+    float:left;
+    text-align: center;
+}
+
+.left_link .btn.btn-default {
+		width:100%;
+		text-align:left;
+}
+.left_top img {
+ margin:0 0px;
+ display:block;
+ padding:10px 0px;
+}
+	
+.left_top .btn.btn-default {
+		width:50%;
+		margin:0 auto;
+		display:block;
+	}
+.container_left .btn-lg {
+	margin-top:20px;
+}
+.footer {
+    border-top: 1px solid #e5e5e5;
+    color: #777;
+    padding-top:20px;
+}
+
+.middle_pane{
+    width: 75%;
+    float: left;
+    padding: 9px;
+}
+
+.autocomplete {
+    margin: 0px !important;
+}
+body {
+	 background-color:#c0deed;
+}
+.cloudTagging{
+	background-color: white;
+	margin-right: 1px;
+}
+.postTweet{
+	background-color:#fff;
+	padding:6px 6px 15px 6px;
+	margin-bottom:15px;
+	border-radius:4px;
+	word-wrap: break-word;
+	border-bottom: 1px solid #6495ED;
+	box-shadow: 4px 3px 8px #888;
+}
+
+.mainContent{
+	margin-left: 20px;
+    display: flex;
+
+}
+.hasCloud{
+	background-color:#0084b4;
+	color:white;
+
+}
+.labelName{
+	float:left;
+	margin-right:5px;
+}
+.nameInput{
+	float:left;
+	padding: 4px 3%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+textarea {
+	padding: 4px 3%;
+	margin-top:10px;
+	margin-left:44px;
+}
+
+span {
+	font-size: 18px;
+}
+.navbar-search {
+	margin: 20px 0;
+}
+.postedDate{
+	font-size: 11px;
+	float:right;
+    margin: -8px 0px 0px;
+}

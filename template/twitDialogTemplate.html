@@ -1,0 +1,10 @@
+
+ <!-- This template is used for add Tweet Dialog-->
+<div class="container">
+    <p>Compose your new tweet here</p>
+    <label class="control-label labelName"><strong>Name</strong></label>
+    <input class="form-control nameInput" type="name" name="name" placeholder="Enter your name" data-ng-model = "$parent.NameEntered" data-ng-Change="postHandle()"/>
+    <textarea class="form-control" rows="3" maxlength="140" placeholder="Enter your tweet here" data-ng-model="$parent.twitPostValuehtml" data-ng-Change="postHandle()"></textarea>
+    <button type="button" id = "postSubmit" class="btn btn-primary btn-lg pull-right" data-ng-disabled="isDisabled" data-ng-click="postTweet()">Tweet</button>
+    {{140 - $parent.twitPostValuehtml.length}}
+</div>
